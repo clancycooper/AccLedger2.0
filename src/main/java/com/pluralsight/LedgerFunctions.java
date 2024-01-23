@@ -6,7 +6,7 @@ import java.util.*;
 import static com.pluralsight.AccountingLedgerApp.*;
 import static com.pluralsight.Reader.transactionList;
 
-/*This is my LedgerFunctions class
+/*This is our LedgerFunctions class
 In this class you'll find the following functions:
 displayAll();
 displayDeposits();

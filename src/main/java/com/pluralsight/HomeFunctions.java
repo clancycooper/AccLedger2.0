@@ -11,7 +11,7 @@ import java.time.format.DateTimeFormatter;
 import static com.pluralsight.AccountingLedgerApp.homeScreen;
 import static com.pluralsight.AccountingLedgerApp.scanner;
 
-/*This is my HomeFunctions class
+/*This is our HomeFunctions class
 Here you'll find the following methods:
 addDeposits(); - Allows user to enter new deposit into transactions.csv
 makePayment(); - Allows user to notate payments from their account into transactions.csv

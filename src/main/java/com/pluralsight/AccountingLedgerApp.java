@@ -9,8 +9,8 @@ import static com.pluralsight.Reader.readTransactions;
 import static com.pluralsight.ReportsFunctions.*;
 
 
-/*Welcome to the Main Class for my Accounting Ledger App
-Here is where the Screens of my App will live
+/*Welcome to the Main Class for our Accounting Ledger App
+Here is where the Screens of our App will live
 The Home screen will allow users to:
     D) Add deposit: Prompt user for deposit info and save to csv file
     P) Make payment: Prompt user for debit info and save to csv file
@@ -39,7 +39,7 @@ public class AccountingLedgerApp {
     }
 
     public static void homeScreen() throws IOException {
-        System.out.println("Good afternoon, Clancy. How can I assist you?");
+        System.out.println("Good afternoon. How can I assist you?");
         System.out.println(" D) Add a Deposit \n P) Make a Payment \n L) View your Ledger \n X) Exit");
         String clancysChoice = scanner.nextLine().toUpperCase().trim();
         switch(clancysChoice) {

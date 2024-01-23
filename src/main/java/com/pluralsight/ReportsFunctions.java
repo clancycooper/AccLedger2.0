@@ -8,7 +8,7 @@ import java.util.Scanner;
 import static com.pluralsight.AccountingLedgerApp.*;
 import static com.pluralsight.Reader.transactionList;
 
-/*This is my ReportsFunctions class
+/*This is our ReportsFunctions class
 In this class you'll find the following methods:
 monthToDate();
 previousMonth();

@@ -5,8 +5,8 @@ import java.util.*;
 import static com.pluralsight.AccountingLedgerApp.homeScreen;
 
 /*This is the Reader Class
-Here is where my buffered/file reader is stored
-When launched, my main method will start the readTransactions method automatically
+Here is where our buffered/file reader is stored
+When launched, our main method will start the readTransactions method automatically
  */
 public class Reader {
     public static HashMap<String, Transaction> transactionList = new HashMap<>();
