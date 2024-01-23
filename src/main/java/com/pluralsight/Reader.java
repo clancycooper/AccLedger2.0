@@ -12,6 +12,7 @@ public class Reader {
     public static HashMap<String, Transaction> transactionList = new HashMap<>();
 
     public static void readTransactions() throws IOException {
+            transactionList.clear();
             FileReader fileReader = new FileReader("src/main/resources/transactions.csv");
             BufferedReader bufReader = new BufferedReader(fileReader);
             String csv;
@@ -27,8 +28,6 @@ public class Reader {
                     transactionList.put(date + time, newTransaction);
                 }
             }
-            homeScreen();
-            fileReader.close();
             bufReader.close();
     }
 }

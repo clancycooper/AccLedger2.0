@@ -41,6 +41,7 @@ public class HomeFunctions {
         fileWriter.write(date + "|" + time + "|" + desc + "|" + vendor + "|" + amountDF);
         fileWriter.newLine();
         fileWriter.close();
+        Reader.readTransactions();
         System.out.println("Your deposit was received! We will redirect you to Account Home now...");
         homeScreen();
     }
@@ -64,6 +65,7 @@ public class HomeFunctions {
         fileWriter.write(date + "|" + time + "|" + desc + "|" + vendor + "|" + amountDF);
         fileWriter.newLine();
         fileWriter.close();
+        Reader.readTransactions();
 
         System.out.println("Thank you for your payment! We will redirect you to Account Home now...");
         homeScreen();
