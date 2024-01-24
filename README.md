@@ -17,7 +17,10 @@ The first step in launching this app was utilyzing Github's built-in project man
 Each step was laid out on a Kanban board.
 
 ## Debugging
-We noticed a bug in the code that needed to be adjusted, when creating a new transaction our database was not automatically updating.
+
+### Bug #1:
+- Bug: When adding a new transaction to our ledger, the csv file was not automatically updating.
+- Solution: Throw our readTransaction method after each transaction to automatically refresh the adjusted transaction sheet.
 
 Fixing bug in Main/Homescreen
 
